@@ -1,0 +1,22 @@
+Options -Indexes
+DirectoryIndex /home/screens/home.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^pages$  home.html [L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+ErrorDocument 400 /errors/errors400/erro400/screen/400.html
+ErrorDocument 401 /errors/errors400/erro401/screen/401.html
+ErrorDocument 403 /errors/errors400/erro403/screen/403.html
+ErrorDocument 404 /errors/errors400/erro404/screen/404.html
+
+ErrorDocument 500 /errors/errors500/erro500/screens/500.html
+ErrorDocument 503 /errors/errors500/erro503/screens/503.html
+ErrorDocument 504 /errors/errors500/erro504/screens/504.html

@@ -1,0 +1,69 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+}
+body{
+      background: linear-gradient(180deg, rgba(242, 242, 242, 0.7) 0%, rgba(227, 227, 227, 0.8) 100%);
+      height: 66rem;
+}
+.enviando{
+      margin-top: 14rem;
+}
+.img{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.title{
+      text-align: center;
+      font-size: 1.4rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.subtitle{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      text-align: center;
+      font-size: 1.2rem;
+      -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.enviar{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      margin: 0;
+      -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.formulario{
+      margin-top: rem;
+}
+.textarea{
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+      -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+      max-width: 260px;
+}
+@media (min-width: 1200px){
+      .title{
+            color: rgba(0, 0, 0, 0.78);
+            text-align: center;
+            font-size: 1.8rem;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+      .subtitle{
+            color: rgba(0, 0, 0, 0.78);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            text-align: center;
+            font-size: 1.4rem;
+            -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+      .nomeform{
+            font-size: 1.4rem;
+      }
+      input, select, .input-group-text{
+            height: 2.7rem;
+      }
+}

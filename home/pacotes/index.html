@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+                @font-face {
+                font-family: Coolvetica;
+                src: url('assets/font/coolvetica\ rg.ttf');
+                }
+            </style>
+            <!--icones-->
+            <meta name="msapplication-TileColor" content="#660099">
+            <meta name="msapplication-TileImage" content="/assets/icon/mstile-144x144.png?v=2">
+            <meta name="theme-color" content="#660099">
+            <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+            <!--------------------------------------------------->
+            <title> Agencia </title>
+            <!--css-->
+            <link href="/home/pacotes/css/pacote.css" rel="stylesheet">
+            <!--bootstrap-->
+            <link rel="stylesheet" href="/home/assets/styles/css/bootstrap/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <div>
+                    <img  class="col-12 img" style="max-width: 250px;" src="/home/assets/styles/img/default-placeholder.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-1">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <div>
+                    <h1 class="title">Olá agradecemos seu interesse em fazer parte da agencia!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <div>
+                    <p class="subtitle">Agora preencha estes dados e logo entraremos em contato com você!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="formulario">
+                <div class="card-body">
+                    <form  class="container-fluid"  name="form_contato" method="POST" action="/home/pacotes/pacote.php" style="max-width: 1500px;">
+                        <div class="form-row  d-flex justify-content-center mt-1">
+                            <div class="col-10 col-sm-5">
+                                <div class="form-group" >
+                                    <label class="nomeform " for="nome" style="text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25); color: #660099ce;">Nome Completo</label>
+                                        <input type="text" required="" class="form-control" id="nome" placeholder="Seu Nome" name="nome" style="border-radius: 3rem;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row  d-flex justify-content-center mt-1">
+                            <div class="col-10 col-sm-5">
+                                <div class="form-group text-white"  >
+                                    <label class="nomeform" for="nome" style="text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25); color: #660099ce;">Telefone</label>
+                                        <input type="text" required="" class="form-control" id="numero" placeholder="Seu numero de telefone" name="numero" style="border-radius: 3rem;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row  d-flex justify-content-center mt-1">
+                            <div class="col-10 col-sm-5 ">
+                                <div class="form-group text-white" >
+                                    <label class="nomeform" for="email" style="text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25); color: #660099ce;">E-mail</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend" >
+                                                <span class="input-group-text " style="border-top-left-radius: 3rem; border-bottom-left-radius: 3rem">@</span>
+                                            </div>
+                                            <input type="email" required="" class="form-control" id="email" placeholder="informe seu e-mail" name="email" style="border-top-right-radius: 3rem; border-bottom-right-radius: 3rem">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row  d-flex justify-content-center mt-1">
+                            <div class="col-10 col-sm-5">
+                                <div class="form-group text-white"  >
+                                    <label class="nomeform" for="nome" style="text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25); color: #660099ce;">fale sobre seu projeto e oque podemos ajudar</label>
+                                        <textarea type="text" required="" class="form-control" id="text" placeholder="Espero melhorar minhas vendas tenho projeto a x anos" name="text" style="border-radius: 1rem;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container mt-2">
+                            <div class="row">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                    <p class="subtitle">Não se preocupe odiamos spans e seus dados estão seguros</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-3 form-row-mb-0 d-flex justify-content-center">
+                            <div class="col-12 d-flex justify-content-center">
+                                <button class="btn col-5" type="submit" value="enviar" style="background-color: #660099ce; color: #fff; border-radius: 2rem; max-width: 250px;"> <h5 class="enviar"> Enviar</h5></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <script src="/home/assets/styles/css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

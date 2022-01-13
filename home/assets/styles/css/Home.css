@@ -1,0 +1,280 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body{
+    height: 100%;
+  
+  }
+  /* Navbar*/
+  .logonavbar{
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+    -webkit-filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+}
+  /* Navbar*/
+  /* logo com o video*/
+  .div-agenciavideo{
+    margin-top: 20rem;
+  }
+  .logovideo{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 429px;
+    height: 350px;
+  }
+  .logovideo video{
+    width: 99.883%;
+    height: 100%;
+  }
+  .logovideo .text{
+    position:absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 350px;
+    background: #fff;
+    mix-blend-mode: screen;
+    font-size: 7rem;
+    font-family: coolvetica;
+    letter-spacing: 7px;
+    font-weight: bolder;
+  }
+  /* logo com o video*/
+  /* Nos somos*/
+  .div-nos-somos{
+    margin-top: 5.5rem;
+  }
+  .nos-somos{
+    color: #660099CC;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  /*mouse scroll*/
+  .scroll-downs {
+    position: absolute;
+    margin: auto;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: rgb(0, 0, 0);
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  /* toda empresa*/
+  .div-toda-empresa{
+    margin-top: 8rem;
+  }
+  .title-toda-empresa{
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  /* botao whats */
+  div#whatasapp {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+    padding: 20px;
+    border-radius: 50px;
+    transition: .5s;
+}
+  .div-marketing{
+    margin-top: 4rem;
+  }
+  .svg{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .title-marketing{
+    color: #000000C7;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    width: 20rem;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  .desc-marketing{
+    color:#660099CC;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  .div-quem-e-agencia{
+    margin-top: 6rem;
+  }
+  .title-quem-e-agencia{
+    font-size: 24px;
+    color:#000000C7;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .desc-quem-e-agencia{
+    text-align: center;
+    font-size: 20px;
+    color:#660099CC;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .title-quais-as-funcoes{
+    text-align: center;
+    font-size: 24px;
+    color:#000000C7;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .btn {
+    background-color: #660099!important;
+    border-radius: 4rem!important;
+    -webkit-border-radius: 4rem!important;
+    -moz-border-radius: 4rem!important;
+    -ms-border-radius: 4rem!important;
+    -o-border-radius: 4rem!important;
+    max-width: 340px!important;
+}
+  .btn h1{
+    text-align: center!important;
+    margin: 0!important; 
+    color: #fff!important;
+  }
+@media (min-width:768px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body{
+    height: 100%;
+  }
+  .logonavbar{
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+  }
+  .logovideo{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 625px;
+    height: 350px;
+  }
+  .logovideo video{
+    width: 300%;
+    height: 100%;
+  }
+  .logovideo .text{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    line-height: 350px;
+    background: #fff;
+    mix-blend-mode: screen;
+    font-size: 10rem;
+    font-family: coolvetica;
+    letter-spacing: 7px;
+    font-weight: bolder;
+  }
+  .div-nos-somos{
+    width: 60rem;
+    margin-top: 10.8rem;
+  }
+  .nos-somos{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .div-toda-empresa {
+    width: 60rem;
+    margin-top: 10.8rem;
+  }
+  .title-toda-empresa{
+    font-size: 2.4rem;
+    text-align: center;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .div-marketing{
+    margin-top: 10rem;
+  }
+  .svg{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .title-marketing{
+    color: #000000C7;
+    width: 40rem;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .desc-marketing{
+    color:#660099CC;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .div-quem-e-agencia{
+    margin-top: 8rem;
+  }
+  .title-quem-e-agencia{
+    font-size: 35px;
+    color:#000000C7;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .desc-quem-e-agencia{
+    max-width: 800px;
+    text-align: center;
+    font-size: 25px;
+    color:#660099CC;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .title-quais-as-funcoes{
+    text-align: center;
+    font-size: 35px;
+    color:#000000C7;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  }
+}
+
